@@ -6,11 +6,8 @@
 </template>
 
 <script>
-import { button } from 'element-ui/lib';
-
 export default {
   name: 'HelloWorld',
-  components: [button],
   props: {
     msg: String
   }
